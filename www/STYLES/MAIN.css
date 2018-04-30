@@ -1,0 +1,111 @@
+*{
+	font-family: book antiqua;
+}
+body {
+	margin: 0;
+	padding: 0;
+} 
+
+#row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#row{ display: inline-block; }
+/* start commented backslash hack \*/
+* html #row { height: 1%; }
+#row { display: block; }
+/* close commented backslash hack */
+
+#header {
+	height:200px;
+	margin:0px;
+	text-decoration: none;
+} 
+
+#header_inner  {
+	height:35px;
+    background:black;
+	margin-top:0px;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+#main{
+	min-height:350px;
+    margin-left:10px;
+	width:70%;
+	float:left;
+	
+}
+
+
+
+#article1{
+	
+	float:left;
+	width:27%;
+	margin-left:1px;
+	min-height:350px;
+}
+
+
+
+
+#article2{
+	
+	width:32%;
+	margin-top:5px;
+	margin-left:10px;
+	margin-right:5px;
+	min-height:350px;
+	float:left;
+	
+}
+
+#article3{
+	
+	width:32%;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	min-height:350px;
+	float:left;
+	
+}
+
+#article4{
+	
+	width:32%;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	min-height:350px;
+	float:left;
+	
+}
+
+#a {
+   
+    text-decoration: none; /* убираем  */
+   }
+
+#footer p {
+	text-align:center;
+	height:50px;
+	margin-top:10px;
+	background-color:black;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+
+
+
+ 
